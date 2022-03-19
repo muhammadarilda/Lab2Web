@@ -46,7 +46,7 @@
 ```
 
 Maka hasilnya akan seperti berikut.
-![StrukturHTML](pict/struktur_html.png)
+![StrukturHTML](Pict/struktur_html.png)
 
 ## Langkah 2 `Mendeklarasikan CSS internal`
 1. Tambahkan kode berikut kedalam head HTML.
@@ -78,7 +78,7 @@ Maka hasilnya akan seperti berikut.
 
 2. Maka hasilnya akan seperti berikut.
 
-![CSS_internal](pict/css_internal.png)
+![CSS_internal](Pict/css_internal.png)
 
 ## Langkah 3 `Menambahkan Inline CSS`
 1. Tambahkan kode berikut kedalam tag `<p>`.
@@ -87,7 +87,7 @@ Maka hasilnya akan seperti berikut.
 ```
 
 2. Maka hasilnya akan seperti berikut.
-![CSS_inline](pict/css_inline.png)
+![CSS_inline](Pict/css_inline.png)
 
 ## Langkah 4 `Membuat CSS Eksternal`
 1. Buat file baru bernama `style_eksternal.css`.
@@ -118,7 +118,7 @@ nav .active, nav a:hover {
 ```
 > Apabila tidak menambahkan tag ini maka html tidak akan mendapatkan stylenya/tidak valid.
 4. Maka hasilnya akan seperti berikut.
-![CSS_Eksternal](pict/css_eksternal.png)
+![CSS_Eksternal](Pict/css_eksternal.png)
 
 ## Langkah 5 `Menambahkan CSS Selector`
 1. Tambahkan Selector menggunakan _ID_ dan _Class_ pada file `style_eksternal.css`.
@@ -153,7 +153,7 @@ nav .active, nav a:hover {
 ```
 
 2. Maka hasilnya akan seperti berikut.
-![Selector ID Class](pict/selector_idclass.png)
+![Selector ID Class](Pict/selector_idclass.png)
 
 > ### Jadi cantik bukan?
 
@@ -161,7 +161,7 @@ nav .active, nav a:hover {
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
 > Saya melakukan banyak penambahan dan perubahan yang hasilnya kurang lebih jadi seperti berikut.
-![Eksperimen](pict/eksperiment.png)
+![Eksperimen](Pict/eksperiment.png)
 
 2. Apa perbedaan pendeklarasian CSS elemen `h1 {...}` dengan `#intro h1 {...}`? Berikan penjelasannya!
 
@@ -176,15 +176,15 @@ nav .active, nav a:hover {
 Contoh saya fokus pada property background-color pada `a.button`:
 * Saya mendeklarasikan CSS _Eksternal_ pada `.button`.
 
-![eks](pict/external.PNG)
+![eks](Pict/external.PNG)
 
 * Saya mendeklarasikan CSS _Internal_ pada `.button` menambahkan `background-color : red`.
 
-![internal](img/internal.PNG)
+![internal](Pict/internal.PNG)
 
 * Saya mendeklarasikan CSS Inline pada tag `<a class="button">` menambahkan atribut `style="background-color : yellow"`.
 
-![inline](pict/inline.PNG)
+![inline](Pict/inline.PNG)
 
 > Akan terus menimpah, dan tetap inline yang akan diprioritaskan.
 
@@ -204,4 +204,4 @@ Contoh saya menambahkan style pada element ini `<p id="paragraf-1" class="text-p
 ```
 
 > Maka hasilnya tetap akan merah
-![paragraf](pict/paragraf.PNG)
+![paragraf](Pict/paragraf.PNG)
