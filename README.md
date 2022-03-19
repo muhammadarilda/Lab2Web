@@ -46,7 +46,7 @@
 ```
 
 Maka hasilnya akan seperti berikut.
-![StrukturHTML](Pict/struktur_html.png)
+![StrukturHTML](Pict/Struktur_html.png)
 
 ## Langkah 2 `Mendeklarasikan CSS internal`
 1. Tambahkan kode berikut kedalam head HTML.
@@ -153,7 +153,7 @@ nav .active, nav a:hover {
 ```
 
 2. Maka hasilnya akan seperti berikut.
-![Selector ID Class](Pict/selector_idclass.png)
+![Selector ID Class](Pict/css_selectorID.png)
 
 > ### Jadi cantik bukan?
 
@@ -176,7 +176,7 @@ nav .active, nav a:hover {
 Contoh saya fokus pada property background-color pada `a.button`:
 * Saya mendeklarasikan CSS _Eksternal_ pada `.button`.
 
-![eks](Pict/external.PNG)
+![eks](Pict/eksternal.PNG)
 
 * Saya mendeklarasikan CSS _Internal_ pada `.button` menambahkan `background-color : red`.
 
