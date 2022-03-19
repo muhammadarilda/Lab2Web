@@ -94,7 +94,7 @@ Maka hasilnya akan seperti berikut.
 2. Deklarasikan kode berikut ke dalamnya.
 ```css
 nav {
-  background: #20A759;
+  background: #2ad3ca;
   color:#fff;
   padding: 10px;
 }
@@ -106,8 +106,8 @@ nav a {
 }
 
 nav .active, nav a:hover {
-  background: #0B6B3A;
-}
+  background: #000000;
+ }
 ```
 
 3. Sisipkan tag `<link>` untuk menghubungkan antara file HTML dengan file CSS dibagian `<head>`.
@@ -126,7 +126,7 @@ nav .active, nav a:hover {
 /* ID Selector */
 #intro {
     background: #418fb1;
-    border: 1px solid #099249;
+    border: 1px solid #b6db4f;
     min-height: 100px;
     padding: 10px;
 }
@@ -148,7 +148,7 @@ nav .active, nav a:hover {
 }
 
 .btn-primary {
-    background: #E42A42;
+    background: #2d00f5;
 }
 ```
 
@@ -195,7 +195,7 @@ Contoh saya fokus pada property background-color pada `a.button`:
 Contoh saya menambahkan style pada element ini `<p id="paragraf-1" class="text-paragraf">`
 ```css
 #paragraf-1 {
-    color: red;
+    color: rgb(94, 255, 0);
 }
 
 .text-paragraf {
@@ -203,5 +203,5 @@ Contoh saya menambahkan style pada element ini `<p id="paragraf-1" class="text-p
 }
 ```
 
-> Maka hasilnya tetap akan merah
+> Maka hasilnya tetap akan hijau
 ![paragraf](Pict/paragraf.png)
