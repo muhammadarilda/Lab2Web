@@ -1,0 +1,15 @@
+nav {
+  background: #20A759;
+  color:#fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding:10px 20px;
+}
+
+nav .active, nav a:hover {
+  background: #0228a7;
+}
