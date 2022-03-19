@@ -1,6 +1,6 @@
 # # Tugas Lab 2 Web
 ## Profil
-| # | Biodata |
+| $#$ | Biodata |
 | -------- | --- |
 | **Nama** | Muhammad Arilda Aprilianto |
 | **NIM** | 312010399 |
@@ -155,7 +155,7 @@ nav .active, nav a:hover {
 2. Maka hasilnya akan seperti berikut.
 ![Selector ID Class](Pict/css_selectorID.png)
 
-> ### Jadi cantik bukan?
+> ### Bukan kah jadi lebih bagus?
 
 ## Pertanyaan
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
@@ -176,15 +176,15 @@ nav .active, nav a:hover {
 Contoh saya fokus pada property background-color pada `a.button`:
 * Saya mendeklarasikan CSS _Eksternal_ pada `.button`.
 
-![eks](Pict/eksternal.PNG)
+![eks](Pict/eksternal.png)
 
 * Saya mendeklarasikan CSS _Internal_ pada `.button` menambahkan `background-color : red`.
 
-![internal](Pict/internal.PNG)
+![internal](Pict/internal.png)
 
 * Saya mendeklarasikan CSS Inline pada tag `<a class="button">` menambahkan atribut `style="background-color : yellow"`.
 
-![inline](Pict/inline.PNG)
+![inline](Pict/inline.png)
 
 > Akan terus menimpah, dan tetap inline yang akan diprioritaskan.
 
@@ -204,4 +204,4 @@ Contoh saya menambahkan style pada element ini `<p id="paragraf-1" class="text-p
 ```
 
 > Maka hasilnya tetap akan merah
-![paragraf](Pict/paragraf.PNG)
+![paragraf](Pict/paragraf.png)
